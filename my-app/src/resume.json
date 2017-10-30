@@ -1,0 +1,68 @@
+{
+  "basics": {
+    "name": "John Graham",
+    "label": "ERP Developer",
+    "picture": "./profilePhoto.jpg",
+    "email": "johnmaxwellgraham@gmail.com",
+    "phone": "4064519117",
+    "location": {
+      "address": "347 Water Lily",
+      "postalCode": "59718",
+      "city": "Bozeman",
+      "country": "United States"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "johnmaxwellgraham",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mystery Ranch Backpacks",
+      "position": "ERP Developer",
+      "website": "http://mysteryranch.com",
+      "startDate": "Aug 2009",
+      "endDate": ""
+    },
+    {
+      "company": "Dish Network",
+      "position": "Satellite Installer",
+      "website": "",
+      "startDate": "Dec 2008",
+      "endDate": "June 2009"
+    },
+    {
+      "company": "SPIE - International society for optics and photonics",
+      "position": "Help Desk Intern",
+      "website": "http://spie.org",
+      "startDate": "March 2008",
+      "endDate": "October 2008"
+    }  
+  ],
+  "education": [
+    {
+      "school": "Montana Code School",
+      "subject": "Full Stack Web Development",
+      "startDate": "September 2017",
+      "endDate": "March 2018",
+      "gpa": ""
+    },
+    {
+      "school": "Bellingham Technical College",
+      "subject": "Comuter Desktop Support",
+      "startDate": "September 2006",
+      "endDate": "June 2008",
+      "gpa": "3.9"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Guitar",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
