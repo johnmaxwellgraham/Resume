@@ -6,7 +6,14 @@ class Hobbies extends Component {
   }
   render () {
     return (
-      <div>{this.props.hobbies}</div>
+      <div>
+        HOBBIES
+        <ul>
+        <li>{this.props.hobbies[0]}</li>
+        <li>{this.props.hobbies[1]}</li>
+        <li>{this.props.hobbies[2]}</li>
+        </ul>
+      </div>
     )
   }
 }

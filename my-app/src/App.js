@@ -34,7 +34,7 @@ class App extends Component {
         
       },
       "aboutMe": 
-        "Being from Minnesota I am a die hard Vikings fan. I bleed purple and gold and would give my brothers first born to see them in the SuperBowl. I am married with no children but we have a total of 20 legs in our house. 2 dog, 2 cats. Pigeon, Pluto, Lulu, and the baby boy Fletch. I love traveling and trying new things. I hope to be checking of Tokyo and Hong Kong off my travel list soon. One thing I am very proud of is owning my own home. It is something that took a lot of time, hard work, and dedication to make it happen."
+        "I am a Minnesota native but have lived in Montana for a total of 14 years. I am married with no children but we have a total of 20 legs in our house. 2 dog, 2 cats. Pigeon, Pluto, Lulu, and the baby boy Fletch. I love traveling and trying new things. I hope to be checking Tokyo and Hong Kong off my travel list soon. One thing I am very proud of is owning my own home. It is something that took a lot of time, hard work, and dedication to make it happen."
       ,
       "work": [
         {
@@ -126,10 +126,9 @@ class App extends Component {
           <Education education={this.state.education[1].endDate}/>
           <Education education={this.state.education[1].gpa}/><br />
         </div>
-        <div>
-          HOBBIES
+        
           <Hobbies hobbies={this.state.hobbies}/>
-        </div>
+        
       </div>
     );
   }
