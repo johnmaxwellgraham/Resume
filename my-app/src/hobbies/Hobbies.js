@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Hobby extends Component {
+class Hobbies extends Component {
   constructor(props) {
     super(props);
   }
   render () {
     return (
-      <div>{this.props.hobby}</div>
+      <div>{this.props.hobbies}</div>
     )
   }
 }
-export default Hobby;
+export default Hobbies;

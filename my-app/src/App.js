@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hobby from './hobby/Hobby';
+import Hobbies from './hobbies/Hobbies';
 import About from './about/About';
 import Education from './education/Education';
 import Work from './work/Work';
@@ -83,16 +83,52 @@ class App extends Component {
     
     return (
       <div>
+        {console.log(this.state.work)}
         <div className="App-header">
-        <Basics basics= {this.state.basics.name}/> <br />
-        <Basics basics={this.state.basics.position}/> <br />
-        <Basics basics={this.state.basics.email}/> <br />
-        <Basics basics={this.state.basics.phone}/> <br />
+          <Basics basics= {this.state.basics.name}/> <br />
+          <Basics basics={this.state.basics.position}/> <br />
+          <Basics basics={this.state.basics.email}/> <br />
+          <Basics basics={this.state.basics.phone}/> <br />
         </div>
         <div className="App">
-          About Me <br /><br />
+          ABOUT ME <br /><br />
           <About aboutMe={this.state.aboutMe}/> <br />
 
+        </div>
+        <div>
+          EMPLOYMENT<br /><br />
+          <Work work={this.state.work[0].company}/>
+          <Work work={this.state.work[0].website}/>
+          <Work work={this.state.work[0].position}/>
+          <Work work={this.state.work[0].startDate}/>
+          <Work work={this.state.work[0].endDate}/> <br />
+          <Work work={this.state.work[1].company}/>
+          <Work work={this.state.work[1].website}/>
+          <Work work={this.state.work[1].position}/>
+          <Work work={this.state.work[1].startDate}/>
+          <Work work={this.state.work[1].endDate}/> <br />
+          <Work work={this.state.work[2].company}/>
+          <Work work={this.state.work[2].website}/>
+          <Work work={this.state.work[2].position}/>
+          <Work work={this.state.work[2].startDate}/>
+          <Work work={this.state.work[2].endDate}/> <br />
+        </div>
+        <div>
+          EDUCATION<br /><br />
+          <Education education={this.state.education[0].school}/>
+          <Education education={this.state.education[0].subject}/>
+          <Education education={this.state.education[0].startDate}/>
+          <Education education={this.state.education[0].endDate}/>
+          <Education education={this.state.education[0].gpa}/><br />
+          <Education education={this.state.education[1].school}/>
+          <Education education={this.state.education[1].subject}/>
+          <Education education={this.state.education[1].startDate}/>
+          <Education education={this.state.education[1].endDate}/>
+          <Education education={this.state.education[1].gpa}/><br />
+        </div>
+        <div>
+          HOBBIES
+          <Hobbies hobbies={this.state.hobbies}/>
         </div>
       </div>
     );
