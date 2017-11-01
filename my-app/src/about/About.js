@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './about/About.css';
+import './About.css';
 
 class About extends Component {
   constructor(props) {
@@ -8,8 +8,8 @@ class About extends Component {
   render () {
     return (
       <div>
-      <h1 className= "title"> ABOUT ME</h1>
-      <br /><br />
+      <h1> ABOUT ME</h1>
+      
       {this.props.aboutMe}
       </div>
     )

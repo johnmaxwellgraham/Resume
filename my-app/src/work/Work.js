@@ -20,8 +20,7 @@ class Work extends Component {
     })
     return (
       <div>
-        EMPLOYMENT<br />
-
+        <h1>EMPLOYMENT</h1>
         {output}
       </div>
     )

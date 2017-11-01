@@ -20,8 +20,7 @@ class Education extends Component {
     return (
       <div>
         <br />
-        EDUCATION<br />
-
+        <h1>EDUCATION</h1>      
         {output}
       </div>
     )

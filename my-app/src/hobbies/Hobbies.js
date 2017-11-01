@@ -18,8 +18,7 @@ class Hobbies extends Component {
     })
     return (
       <div>
-        <br />
-        HOBBIES
+       <h1>HOBBIES</h1>
         <ul>
         {output}
         </ul>
