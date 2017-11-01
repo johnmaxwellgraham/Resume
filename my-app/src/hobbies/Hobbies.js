@@ -4,14 +4,24 @@ class Hobbies extends Component {
   constructor(props) {
     super(props);
   }
+
+  
   render () {
+    var children = this.props.hobbies;
+    var output = children.map(function(child){
+      return (
+        <div>
+          
+          <li>{child}</li>
+        </div>
+      )
+    })
     return (
       <div>
+        <br />
         HOBBIES
         <ul>
-        <li>{this.props.hobbies[0]}</li>
-        <li>{this.props.hobbies[1]}</li>
-        <li>{this.props.hobbies[2]}</li>
+        {output}
         </ul>
       </div>
     )

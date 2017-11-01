@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './about/About.css';
 
 class About extends Component {
   constructor(props) {
@@ -6,7 +7,11 @@ class About extends Component {
   }
   render () {
     return (
-      <div>{this.props.aboutMe}</div>
+      <div>
+      <h1 className= "title"> ABOUT ME</h1>
+      <br /><br />
+      {this.props.aboutMe}
+      </div>
     )
   }
 }

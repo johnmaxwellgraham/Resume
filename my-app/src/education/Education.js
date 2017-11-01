@@ -5,8 +5,25 @@ class Education extends Component {
     super(props);
   }
   render () {
+    var children = this.props.education;
+    var output = children.map(function(child){
+      return (
+        <div>
+          <br/>
+          School - {child.school} <br />
+          Subject - {child.subject} <br />
+          Start - {child.startDate} <br />
+          Completion - {child.endDate} <br />
+        </div>
+      )
+    })
     return (
-      <div>{this.props.education}</div>
+      <div>
+        <br />
+        EDUCATION<br />
+
+        {output}
+      </div>
     )
   }
 }
